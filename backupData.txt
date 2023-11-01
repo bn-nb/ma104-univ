@@ -1,0 +1,48 @@
+// Add to Database Class
+
+static {
+    studList.add(new Student(22001, "Aeris ", 2022, 1, 1));
+    studList.add(new Student(22002, "Benny ", 2022, 1, 1));
+    studList.add(new Student(22003, "Chris ", 2022, 1, 1));
+    studList.add(new Student(21004, "Daniel", 2021, 2, 1));
+    studList.add(new Student(21005, "Edward", 2021, 2, 1));
+    studList.add(new Student(21006, "Franky", 2021, 2, 2));
+    studList.add(new Student(20007, "Gerald", 2020, 3, 2));
+    studList.add(new Student(20008, "Howard", 2020, 3, 2));
+    studList.add(new Student(20009, "Irwin ", 2020, 3, 2));
+    studList.add(new Student(19010, "Jamie ", 2019, 4, 2));
+    studList.add(new Student(19011, "KaneJ ", 2019, 4, 3));
+    studList.add(new Student(19012, "Light ", 2019, 4, 3));
+    studList.add(new Student(18013, "Modern", 2018, 5, 3));
+    studList.add(new Student(18014, "Nevile", 2018, 5, 3));
+    studList.add(new Student(18015, "Obama ", 2018, 5, 3));
+}
+static {
+    profList.add(new Professor(15001, "Alan", 2015, "Mathematics"));
+    profList.add(new Professor(15002, "Bobb", 2015, "CompScience"));
+    profList.add(new Professor(15003, "Cris", 2015, "Economy_Biz"));
+}
+static {
+    compList.add(new Computer(201401, "R-1:01", 20000, 1, "4  GB | 128 GB HDD | i3"));
+    compList.add(new Computer(201402, "R-1:02", 20000, 1, "4  GB | 128 GB HDD | i3"));
+    compList.add(new Computer(201403, "R-1:03", 20000, 1, "4  GB | 128 GB HDD | i3"));
+    compList.add(new Computer(201404, "R-1:04", 40000, 1, "8  GB | 256 GB SSD | i5"));
+    compList.add(new Computer(201405, "R-1:05", 40000, 1, "8  GB | 256 GB SSD | i5"));
+    compList.add(new Computer(201501, "R-2:01", 40000, 2, "8  GB | 256 GB SSD | i5"));
+    compList.add(new Computer(201502, "R-2:02", 60000, 2, "12 GB | 512 GB HDD | i7"));
+    compList.add(new Computer(201503, "R-2:03", 60000, 2, "12 GB | 512 GB HDD | i7"));
+    compList.add(new Computer(201504, "R-2:04", 80000, 2, "16 GB | 512 GB SSD | i9"));
+    compList.add(new Computer(201505, "R-2:05", 80000, 2, "16 GB | 512 GB SSD | i9"));
+}
+static {
+    bookList.add(new Book(201501, "SH-1:01", 100, "AuthorA", 1));
+    bookList.add(new Book(201502, "SH-1:02", 100, "AuthorB", 1));
+    bookList.add(new Book(201503, "SH-1:03", 200, "AuthorC", 1));
+    bookList.add(new Book(201504, "SH-1:04", 300, "AuthorD", 1));
+    bookList.add(new Book(201505, "SH-1:05", 400, "AuthorE", 1));
+    bookList.add(new Book(201601, "SH-2:01", 500, "AuthorF", 2));
+    bookList.add(new Book(201602, "SH-2:02", 600, "AuthorG", 2));
+    bookList.add(new Book(201603, "SH-2:03", 700, "AuthorH", 2));
+    bookList.add(new Book(201604, "SH-2:04", 800, "AuthorI", 2));
+    bookList.add(new Book(201605, "SH-2:05", 900, "AuthorJ", 2));
+}
