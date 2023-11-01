@@ -1,2 +1,2 @@
 # ma104-univ
-University Management - Command Line App
+University Management - Java 17 Command Line App
